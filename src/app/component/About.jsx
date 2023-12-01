@@ -5,12 +5,12 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 const About = () => {
   return (
     <section id="about">
-        <div className='py-16 lg:mx-16 md:mx-12 mx-8 flex flex-col md:flex-row md:gap-8 lg:gap-16 md:items-start lg:items-center'>
+        <div className='py-16 lg:mx-16 md:mx-12 mx-8 flex flex-col md:flex-row md:gap-8 lg:gap-16 md:items-start lg:items-center' >
            
-            <div className='py-16 md:w-6/12 mx-auto'>
+            <div className='py-16 md:w-6/12 mx-auto' data-aos='fade-up-right' data-aos-offset='200' data-aos-delay='50' data-aos-duration='500' data-aos-easing='ease-in-out'>
                 <img src={about} alt="about" />
             </div>
-            <div className='flex flex-col gap-4 md:w-6/12'>
+            <div className='flex flex-col gap-4 md:w-6/12' data-aos='fade-up-left' data-aos-offset='200' data-aos-delay='50' data-aos-duration='500' data-aos-easing='ease-in-out' >
                 <div><h1 className='text-4xl text-center font-bold'>Tentang Kami</h1></div>
                 <div className='opacity-50'>The People, Our Community</div>
                 <div className='text-start flex flex-col gap-3'>

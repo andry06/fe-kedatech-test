@@ -78,9 +78,9 @@ const Price2 = () => {
                 <h3 className='text-xl font-bold'>Pilih Paket ERP Berdasarkan Tier / Level</h3>
             </div>
            
-            <div className='ms-6 relative'>
+            <div className='ms-6 relative' >
             <Slider {...settings} >
-                 <div className='bg-gradient-to-r from-cyan-500 to-blue-500  flex flex-col  rounded-xl select-text'>
+                 <div className='bg-gradient-to-r from-cyan-500 to-blue-500  flex flex-col  rounded-xl select-text' data-aos='fade-up-right' data-aos-offset='200' data-aos-delay='50' data-aos-duration='500' data-aos-easing='ease-in-out'>
                     <div className='bg-white m-3 rounded-lg'>
                         <div className='bg-gradient-to-r from-cyan-500 to-blue-500'>
                             <h2 className='text-3xl text-white font-bold'>Basic</h2>
@@ -133,7 +133,7 @@ const Price2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-gradient-to-r from-cyan-500 to-blue-500  flex flex-col  rounded-xl select-text'>
+                <div className='bg-gradient-to-r from-cyan-500 to-blue-500  flex flex-col  rounded-xl select-text'  data-aos='fade-up' data-aos-offset='200' data-aos-delay='50' data-aos-duration='500' data-aos-easing='ease-in-out'>
                     <div className='bg-white m-3 rounded-lg'>
                         <div className='bg-gradient-to-r from-cyan-500 to-blue-500'>
                             <h2 className='text-3xl text-white font-bold'>Businness</h2>
@@ -186,7 +186,7 @@ const Price2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-gradient-to-r from-cyan-500 to-blue-500  flex flex-col  rounded-xl select-text'>
+                <div className='bg-gradient-to-r from-cyan-500 to-blue-500  flex flex-col  rounded-xl select-text'  data-aos='fade-up-left' data-aos-offset='200' data-aos-delay='50' data-aos-duration='500' data-aos-easing='ease-in-out'>
                     <div className='bg-white m-3 rounded-lg'>
                         <div className='bg-gradient-to-r from-cyan-500 to-blue-500'>
                             <h2 className='text-3xl text-white font-bold'>Enterpreneur</h2>

@@ -15,7 +15,7 @@ const Contact = () => {
             <div className='flex flex-col sm:flex-row text-center font-bold text-blue-500 mt-8 gap-8 px-2 items-center'>
                
                
-                <div className=' bg-gradient-to-r from-cyan-500 to-blue-500  flex flex-col  rounded-xl sm:w-7/12 w-full'>
+                <div className=' bg-gradient-to-r from-cyan-500 to-blue-500  flex flex-col  rounded-xl sm:w-7/12 w-full'  data-aos='fade-up-right' data-aos-offset='200' data-aos-delay='50' data-aos-duration='500' data-aos-easing='ease-in-out'>
                     <div className='text-white p-4 text-xl text-start ps-4 pt-4 '>
                         Hubungi Kami
                     </div>
@@ -45,7 +45,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col items-center gap-8 sm:w-5/12'>
+                <div className='flex flex-col items-center gap-8 sm:w-5/12'  data-aos='fade-up-left' data-aos-offset='200' data-aos-delay='50' data-aos-duration='500' data-aos-easing='ease-in-out'>
                     <div className='text-2xl flex lg:flex-row flex-col '>
                         <div>Hubungi Kami : </div> 
                         <div> +62 812 9655 6868</div>
