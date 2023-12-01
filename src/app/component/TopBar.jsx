@@ -32,8 +32,8 @@ function togglePasswordVisibility() {
                 <div className='font-bold lg:text-2xl md:text-lg sm:text-base'><a href="#price">Pricing</a></div>
                 <div className='font-bold lg:text-2xl md:text-lg sm:text-base'><a href="#contact">Contact</a></div>
                 <div >
-                    <button className='cursor-pointer lg:text-xl md:text-lg sm:text-[14px] border border-sky-400 text-sky-400 px-8 py-2 rounded-lg hover:border-white hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500 ' onClick={() => {setShowLogin(!showLogin); setShowMenu(false)}}>
-                    { showLogin ? <IoCloseSharp /> : 'Login' }
+                    <button className='cursor-pointer lg:text-xl md:text-lg sm:text-[14px] border border-sky-400 text-sky-400 px-8 py-1 rounded-lg hover:border-white hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500 w-28 h-[40px]' onClick={() => {setShowLogin(!showLogin); setShowMenu(false)}}>
+                    { showLogin ? <IoCloseSharp className='mx-auto' /> : 'Login' }
                     </button>    
                 </div>
             </div>
@@ -43,7 +43,7 @@ function togglePasswordVisibility() {
         <div className='sm:hidden flex flex-row justify-between items-center'>
             <div className='p-2 ' ><img src={logo} alt="" className='w-12'/></div>
             <div >
-                <button className='cursor-pointer lg:text-xl md:text-lg sm:text-[14px] border border-sky-400 text-sky-400 px-8 py-2 rounded-lg hover:border-white hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500' onClick={() => {setShowLogin(!showLogin); setShowMenu(false)}}>{ showLogin ? <IoCloseSharp /> : 'Login' } </button>    
+                <button className='cursor-pointer lg:text-xl md:text-lg sm:text-[14px] border border-sky-400 text-sky-400 px-8 py-1 rounded-lg hover:border-white hover:text-white hover:bg-gradient-to-r  from-cyan-500 to-blue-500 w-28 h-[40px]' onClick={() => {setShowLogin(!showLogin); setShowMenu(false)}}>{ showLogin ? <IoCloseSharp className='mx-auto'/> : 'Login' } </button>    
             </div>
             <div className=' cursor-pointer text-sky-400 text-4xl p-4 rounded' onClick={() => {setShowMenu(!showMenu); setShowLogin(false);} }>{showMenu ? <IoCloseSharp /> : <ImMenu3 />} </div>
         </div>
