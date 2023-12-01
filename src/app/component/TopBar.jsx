@@ -49,7 +49,7 @@ function togglePasswordVisibility() {
         </div>
 
                 {/* Sidebar */}
-        <div className={`${ !showMenu ? "hidden" : "flex flex-col sm:hidden"} text-start bg-gradient-to-r from-cyan-500 to-blue-500 absolute top-16 right-0 mx-4 my-2 min-w-[140px] rounded-xl text-white sidebar`}>
+        <div className={`${ !showMenu ? "hidden" : "flex flex-col sm:hidden"} z-50 text-start bg-gradient-to-r from-cyan-500 to-blue-500 absolute top-16 right-0 mx-4 my-2 min-w-[140px] rounded-xl text-white sidebar`}>
           {/* <div className="flex justify-end items-start flex-1 flex-col text-white "> */}
               <div className="font-inter font-medium cursor-pointer px-6 py-3 pt-4 text-[16px]  hover:bg-blue-500 hover:rounded-t-xl">
                 <a href="#home">Home</a>
@@ -66,7 +66,7 @@ function togglePasswordVisibility() {
           {/* </div> */}
         </div>
 
-        <div className={`${ !showLogin ? "hidden" : "flex flex-col gap-8 "} py-8 bg-gradient-to-r from-cyan-500 to-blue-500 absolute top-16 md:top-20 sm:right-1 right-[11%]  mx-4 my-2 min-w-[140px] rounded-xl text-white sidebar w-8/12 sm:w-6/12 md:w-5/12 lg:w-4/12 `}>
+        <div className={`${ !showLogin ? "hidden" : "flex flex-col gap-8 "} z-50 py-8 bg-gradient-to-r from-cyan-500 to-blue-500 absolute top-16 md:top-20 sm:right-1 right-[11%]  mx-4 my-2 min-w-[140px] rounded-xl text-white sidebar w-8/12 sm:w-6/12 md:w-5/12 lg:w-4/12 `}>
             <div >
                 <h1 className=' text-white text-3xl'>Login</h1>
             </div>
