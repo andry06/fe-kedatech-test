@@ -8,6 +8,8 @@ import { IoCloseSharp } from "react-icons/io5";
 const Price2 = () => {
     const [progress, setProgress] = useState(0);
     const [slidesToShow, setSlideToShow] = useState(0);
+    const [buttonPrev, setButtonPrev] = useState(false);
+    const [buttonNext, setButtonNext] = useState(true);
 
     const setSlides = () => {
         if(window.innerWidth <= 3000 && window.innerWidth > 1023){
@@ -26,17 +28,41 @@ const Price2 = () => {
         setSlides();
         setProgress(100 / (3 - slidesToShow +1));
         window.addEventListener('resize', () => { setSlides() });
-        
+      
     }, [slidesToShow]);
     
+    useEffect(() => {
+        if(slidesToShow === 2){
+            if(progress > 50){
+                setButtonPrev(false);
+            }else{
+                setButtonPrev(true);
+                
+            }
+        }else if(slidesToShow === 1){
+            if(progress > 34){
+                setButtonPrev(false);
+            }else{
+                setButtonPrev(true);
+                
+            }
+        }
 
+        if(progress === 100){
+            console.log('suc')
+            setButtonNext(true);
+        }else{
+            setButtonNext(false);
+        }
+
+    }, [progress, slidesToShow])
 
 
     let settings = {
         arrows: true,
         dots: true,
-        nextArrow:  <NextArrow />,
-        prevArrow:  <PrevArrow />,
+        nextArrow:  <NextArrow buttonNext={buttonNext}/>,
+        prevArrow:  <PrevArrow buttonPrev={buttonPrev} />,
         infinite: false,
         speed: 500,
         slidesToShow: 3,

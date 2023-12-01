@@ -37,7 +37,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div>
-                            <textarea id="message" rows="4" class="block p-2.5 w-full  text-black text-sm border border-gray-300 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1" placeholder="Pesan..."></textarea>
+                            <textarea id="message" rows="4" className="block p-2.5 w-full  text-black text-sm border border-gray-300 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1" placeholder="Pesan..."></textarea>
                         </div>
                         <div className='text-start'>
                             <button className='cursor-pointer lg:text-xl md:text-lg sm:text-[14px] border border-sky-400 text-sky-400 px-8 py-2 rounded-lg hover:border-white hover:text-white hover:bg-gradient-to-r from-cyan-500 to-blue-500' >Kirim </button>    
