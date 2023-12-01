@@ -72,7 +72,7 @@ const Price2 = () => {
       };
   
     return (
-        <section id="price" className='mx-4' >
+        <section id="price" className='mx-4 lg:mx-8' >
             <div>
             <div className='mb-16'>
                 <h3 className='text-xl font-bold'>Pilih Paket ERP Berdasarkan Tier / Level</h3>

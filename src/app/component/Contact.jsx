@@ -12,10 +12,10 @@ const Contact = () => {
                 <h2 className='text-3xl font-bold'>Hubungi Kami untuk Lebih Jelas</h2>
                 <h4>Mulai Transformasi Digital Anda Sekarang</h4>
             </div>
-            <div className='flex flex-col sm:flex-row text-center font-bold text-blue-500 mt-8 gap-8 px-2 items-center'>
+            <div className='flex flex-col sm:flex-row text-center font-bold text-blue-500 mt-8 gap-8 px-2 lg:px-8 items-center '>
                
                
-                <div className=' bg-gradient-to-r from-cyan-500 to-blue-500  flex flex-col  rounded-xl sm:w-7/12 w-full'  data-aos='fade-up-right' data-aos-offset='200' data-aos-delay='50' data-aos-duration='500' data-aos-easing='ease-in-out'>
+                <div className=' bg-gradient-to-r from-cyan-500 to-blue-500  flex flex-col  rounded-xl sm:w-7/12 w-full '  data-aos='fade-up-right' data-aos-offset='200' data-aos-delay='50' data-aos-duration='500' data-aos-easing='ease-in-out'>
                     <div className='text-white p-4 text-xl text-start ps-4 pt-4 '>
                         Hubungi Kami
                     </div>
